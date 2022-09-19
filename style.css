@@ -1,0 +1,352 @@
+body {
+    background: #01394C;
+    margin: 0;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F19E3F;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logopic {
+    height: 90px;
+}
+
+.name {
+    font-family: Cormorant Garamond;
+    font-weight: bold;
+    font-size: 32px;    
+    color: #01394C;  
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 70px 0 70px;
+    width: 55%;
+}
+
+.slogan {
+text-transform: uppercase;
+font-family: Cormorant Garamond;
+font-size: 50px;
+color: #01394C;
+text-align: center;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+margin: 10px 0 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 167px;
+    height: 48px;
+    background: #01394C;
+    margin: 10px 30px 15px 30px;
+    border: none;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #F19E3F;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #F19E3F;
+    text-shadow: 4px 4px 4px rgba(13, 5, 5, 0.25);
+    text-align: center;
+}
+
+.content {
+    padding: 40px;
+}
+
+.content_menu_contacts {
+    padding: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.dish {
+    width: 50%;
+}
+
+.description {
+    margin-left: 50px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #F19E3F;
+    text-shadow: 4px 4px 4px rgba(13, 5, 5, 0.25);
+}
+
+.smallText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #F19E3F;
+}
+
+
+.bigMenu {
+    width: 100%;
+}
+
+.menuParts {
+    display: none;
+}
+
+.addressBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.map {
+    width: 600px;
+    height: 380px;
+}
+
+.textAddress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.contacts_text, .schedule  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #F19E3F;
+}
+
+.schedule {
+    margin: 15px 0 15px 0;
+}
+
+.followUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.socialM {
+    width: 200px;
+}
+
+
+@media all and (max-width: 800px) {
+    .navbar {
+        height: 21vh;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .logopic {
+        height: 100px;
+    }
+
+    .navigation {
+        margin: 0 45px 0 45px;
+        width: 50%;
+    }
+
+    .slogan {
+        font-size: 45px;
+    }
+
+    button {
+        height: 63px;
+        margin: 25px 15px 0px 15px;
+        width: 175px;
+    }
+
+    a {
+        font-size: 28px;
+    }
+
+    .content {
+        padding: 50px;
+    }
+
+    .content_menu_contacts {
+        padding: 10px;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .dish {
+        width: 60%;
+    }
+
+    .smallText {
+        font-size: 22px;
+    }
+
+    .addressBlock {
+        flex-direction: column;
+        height: unset;
+    }
+
+    .map {
+        width: 45%;
+        height: 220px;
+        margin-bottom: 10px;
+    }
+
+    .textAddress {
+        align-self: start;
+    }
+
+    .schedule {
+        margin: -10px 0 -10px 0;
+    }
+
+    .socialM {
+        width: 170px;
+        margin-top: -10px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .navbar {
+        flex-direction: column;
+        height: 230px;
+    }
+
+    .logo {
+        margin-left: 0;
+        margin-top: 10px;
+    } 
+
+    .logopic {
+        height: 60px;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    .navigation {
+        margin: 6px 0 0 10px;
+        width: 100%;
+    }
+
+    .slogan {
+        font-size: 38px;
+        margin: 0;
+    }
+
+    button {
+        margin: 9px 9px 10px 9px;
+        width: 140px;
+        height: 55px;
+    }
+
+    a {
+        font-size: 22px;
+    }
+
+    .content, .content_menu_contacts {
+        padding: 14px;
+    }
+
+    .bigMenu {
+        display: none;
+    }
+
+    .menuParts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .partOne, .partTwo {
+        width: 100%;
+    }
+
+    .partTwo {
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 27px;
+        padding: 10px;
+    }
+
+    .dish {
+        width: 95%;
+    }
+
+    .description {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .smallText {
+        font-size: 18px;
+        margin-left: 16px;
+    }
+
+    .map {
+        width: 75%;
+        height: 150px;
+    }
+
+    .textAddress {
+        margin-left: 25px;
+        width: 100%;
+    }
+
+    .contacts_text, .schedule  {
+        font-size: 18px;
+    }
+}
